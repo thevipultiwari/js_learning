@@ -37,3 +37,6 @@ function mine() {
 // console.log(var1);
 // console.log(var2);
 mine();
+
+global.num  = 5;
+console.log(global.num);
