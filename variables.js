@@ -26,20 +26,43 @@
 // }
 // example()
 
-var count = 5;
-var count = 10;
-console.log(count);
+// var count = 5;
+// var count = 10;
+// console.log(count);
 
-function processItems() {
-  let i = 100;
-  i = 45;
+// function processItems() {
+//   let i = 100;
+//   i = 45;
 
-    for (let i = 0; i < 200; i++) {
-      
-  }
-  console.log(i);
+//     for (let i = 0; i < 200; i++) {
+
+//   }
+//   console.log(i);
+// }
+// processItems();
+
+var a = 100;
+{
+  var a = 10;
+  let b = 20;
+  const c = 30;
 }
-processItems();
+// console.log(a);
+// console.log(b); //ReferenceError: b is not defined
+// console.log(c); //ReferenceError: c is not defined
 
+// let d = 20;
+// if (d == 20) {
+//   let d = 10;
+//   console.log(d)
+// }
+
+// let p = 10;
+// function x() {
+//   var p = 100;
+//   console.log(p);
+// }
+// x()
+// console.log(p)
 
 
